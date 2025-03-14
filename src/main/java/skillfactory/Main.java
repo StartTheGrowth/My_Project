@@ -8,7 +8,7 @@ public class Main {
 
         List<Student> studentList = ConvertTableToCollection.copyStudentInfo();
         List<University> universityList = ConvertTableToCollection.copyUniversityInfo();
-        
+
         for (Student student : studentList) {
             System.out.println(student);
         }
