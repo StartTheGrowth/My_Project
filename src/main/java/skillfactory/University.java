@@ -9,15 +9,7 @@ public class University {
     int yearOfFoundation;
     StudyProfile mainProfile;
 
-    public University(String id, String fullName, String shortName, String ranking, float avgPriceOfStudy,
-                      int yearOfFoundation, StudyProfile mainProfile) {
-        this.id = id;
-        this.fullName = fullName;
-        this.shortName = shortName;
-        this.ranking = ranking;
-        this.avgPriceOfStudy = avgPriceOfStudy;
-        this.yearOfFoundation = yearOfFoundation;
-        this.mainProfile = mainProfile;
+    public University() {
     }
 
     public String getId() {

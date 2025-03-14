@@ -5,7 +5,10 @@ public enum StudyProfile {
     JOURNALISM("Журналистика"),
     BIOLOGY("Биология"),
     ASTROPHYSICS("Астрофизика"),
-    SOCIOLOGY("Социология")
+    SOCIOLOGY("Социология"),
+    PHYSICS("Физика"),
+    LINGUISTICS("Лингвистика"),
+    MATHEMATICS("Математика")
     ;
     private String profileName;
 
