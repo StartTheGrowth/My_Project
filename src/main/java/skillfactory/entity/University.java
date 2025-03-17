@@ -1,4 +1,8 @@
-package skillfactory;
+package skillfactory.entity;
+
+import skillfactory.enums.StudyProfile;
+
+import java.util.Objects;
 
 public class University {
     String id;
@@ -79,5 +83,20 @@ public class University {
                 ", yearOfFoundation=" + yearOfFoundation +
                 ", mainProfile=" + mainProfile +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        University that = (University) o;
+        return yearOfFoundation == that.yearOfFoundation && Objects.equals(id, that.id) &&
+                Objects.equals(fullName, that.fullName) && Objects.equals(shortName, that.shortName) &&
+                mainProfile == that.mainProfile;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, fullName, shortName, yearOfFoundation, mainProfile);
     }
 }

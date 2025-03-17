@@ -1,7 +1,10 @@
-package skillfactory;
+package skillfactory.handlers;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import skillfactory.entity.Student;
+import skillfactory.entity.University;
+import skillfactory.enums.StudyProfile;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -11,7 +14,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class ConvertTableToCollection {
-    static List<Student> copyStudentInfo() throws IOException {
+    public static List<Student> copyStudentsInfo() throws IOException {
         Student student;
         List<Student> students = new ArrayList<>();
         File file = new File("C:\\Development\\JAVA\\My_Project\\src\\main\\resources\\universityInfo.xlsx");
@@ -32,7 +35,7 @@ public class ConvertTableToCollection {
         return students;
     }
 
-    static List<University> copyUniversityInfo() throws IOException {
+    public static List<University> copyUniversitiesInfo() throws IOException {
         University university;
         List<University> universities = new ArrayList<>();
         File file = new File("C:\\Development\\JAVA\\My_Project\\src\\main\\resources\\universityInfo.xlsx");

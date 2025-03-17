@@ -1,4 +1,4 @@
-package skillfactory;
+package skillfactory.enums;
 
 public enum StudyProfile {
     MEDICINE("Медицина"),
