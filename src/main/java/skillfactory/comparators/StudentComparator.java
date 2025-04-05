@@ -1,6 +1,6 @@
 package skillfactory.comparators;
 
-import skillfactory.entity.Student;
+import skillfactory.model.Student;
 
 import java.util.Comparator;
 

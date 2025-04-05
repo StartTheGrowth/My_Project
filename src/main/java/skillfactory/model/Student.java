@@ -1,11 +1,17 @@
-package skillfactory.entity;
+package skillfactory.model;
+
+import com.google.gson.annotations.SerializedName;
 
 import java.util.Objects;
 
 public class Student {
+    @SerializedName("fullName")
     String fullName;
+    @SerializedName("universityId")
     String universityId;
+    @SerializedName("currentCourseNumber")
     int currentCourseNumber;
+    @SerializedName("avgExamScore")
     float avgExamScore;
 
     public Student() {

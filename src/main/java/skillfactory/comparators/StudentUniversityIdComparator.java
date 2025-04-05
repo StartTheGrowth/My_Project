@@ -1,7 +1,7 @@
 package skillfactory.comparators;
 
 import org.apache.commons.lang3.StringUtils;
-import skillfactory.entity.Student;
+import skillfactory.model.Student;
 
 public class StudentUniversityIdComparator implements StudentComparator{
     @Override

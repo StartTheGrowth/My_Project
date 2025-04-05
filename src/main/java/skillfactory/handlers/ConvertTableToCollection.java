@@ -2,8 +2,8 @@ package skillfactory.handlers;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import skillfactory.entity.Student;
-import skillfactory.entity.University;
+import skillfactory.model.Student;
+import skillfactory.model.University;
 import skillfactory.enums.StudyProfile;
 
 import java.io.File;

@@ -1,7 +1,7 @@
 package skillfactory.comparators;
 
 import org.apache.commons.lang3.StringUtils;
-import skillfactory.entity.University;
+import skillfactory.model.University;
 
 public class UniversityShortNameComparator implements UniversityComparator{
     @Override

@@ -1,6 +1,6 @@
 package skillfactory.comparators;
 
-import skillfactory.entity.Student;
+import skillfactory.model.Student;
 import org.apache.commons.lang3.StringUtils;
 
 public class StudentNameComparator implements StudentComparator {

@@ -1,6 +1,6 @@
 package skillfactory.comparators;
 
-import skillfactory.entity.University;
+import skillfactory.model.University;
 
 public class UniversityYearOfFoundationComparator implements UniversityComparator{
     @Override
